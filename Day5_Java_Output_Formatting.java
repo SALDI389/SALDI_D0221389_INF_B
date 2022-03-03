@@ -1,5 +1,3 @@
-package yhummyChild;
-
 import java.util.Scanner;
 
 public class Day5_Java_Output_Formatting {
