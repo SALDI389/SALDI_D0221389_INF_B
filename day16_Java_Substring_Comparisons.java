@@ -1,29 +1,4 @@
-[21.47, 8/3/2022] Nadia: import java.util.Scanner;
-
-public class Solution {
-
-    static boolean isAnagram(String a, String b) {
-        // Complete the function
-        boolean result = true;
-        if(a==null||b==null||a.equals("")||b.equals("")){
-            throw new IllegalArgumentException();
-        }
-        if(a.length()!=b.length()){
-            result = false;
-        }else{
-            a = a.toLowerCase();
-            b = b.toLowerCase();
-
-            java.util.Map<Character, Integer> mapA = new java.util.HashMap<>();
-            java.util.Map<Character, Integer> mapB = new java.util.HashMap<>();
-
-            for(int i=0;i<a.length();i++){
-                char charA = a.charAt(i);
-                char charB = b.charAt(i);
-                //untuk character A
-             …
-[21.47, 8/3/2022] Nadia: day18
-[21.59, 8/3/2022] Nadia: import java.util.Scanner;
+import java.util.Scanner;
 
 public class Solution {
 
